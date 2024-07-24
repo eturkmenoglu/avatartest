@@ -1,0 +1,15 @@
+{
+  "globalHeaders": {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, POST, PUT"
+  },
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "routes": [
+    {
+      "route": "/",
+      "serve": "/index.html"
+    }
+  ]
+}
